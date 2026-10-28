@@ -1,0 +1,44 @@
+{
+  "name": "wheat-clay-theme",
+  "displayName": "Wheat Clay Theme",
+  "description": "Warm neutral paper: oat and khaki tones in the light variant, a stone-brown night in the dark one.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "wheat",
+    "clay"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#3C3830",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/wheat-clay-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wheat Clay Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/wheat-clay-light-color-theme.json"
+      },
+      {
+        "label": "Wheat Clay Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wheat-clay-dark-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+:root {
+  --paper: #ebe2cc;
+  --oat: #ded6c1;
+  --khaki: #cfc6b1;
+  --stone: #b7b09e;
+  --ink: #3b3327;
+}
+
+.clay-card {
+  background: #fcf7ea;
+  border: 1px solid var(--khaki);
+  border-radius: 14px;
+  color: var(--ink);
+  padding: 16px 20px;
+}
